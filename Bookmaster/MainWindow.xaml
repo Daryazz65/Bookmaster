@@ -19,8 +19,8 @@
         <!--== Элементы меню==-->
             <MenuItem Header="File">
                 <MenuItem Header="Login"/>
-                <MenuItem Header="Logout"/>
-                <MenuItem Header="Close"/>
+                <MenuItem Header="Logout" Visibility="Collapsed"/>
+                <MenuItem Name="ExitMI" Header="Close" Click="ExitMI_Click"/>
             </MenuItem>
             
             <MenuItem Header="Library">
