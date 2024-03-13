@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:Bookmaster"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- Объявляем словарь ресурсов-->
+        <ResourceDictionary>
+            <!--обращаемся к свойству м...-->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="styles\textblockstyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
